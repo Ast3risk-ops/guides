@@ -80,9 +80,9 @@ plugins:
       plugins:
         - privacy
         - git-committers:
-          enabled: true
-          repository: ast3risk-ops/guides
-          branch: master
+            enabled: true
+            repository: ast3risk-ops/guides
+            branch: master
   - glightbox:
       touchNavigation: true
       loop: false
