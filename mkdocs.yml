@@ -2,6 +2,7 @@ site_name: GuideBox
 repo_url: https://github.com/ast3risk-ops/guides
 repo_name: Ast3risk-ops/guides
 edit_uri: edit/master/docs/
+site_url: https://guides.asterisk.lol
 extra_css:
   - stylesheets/extra.css
 
