@@ -1,0 +1,131 @@
+site_name: GuideBox
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  favicon: assets/img/favicon-32x32.png 
+  name: material
+  icon:
+    logo: material/tools
+    admonition:
+      note: octicons/pencil-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/light-bulb-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+  palette:
+  
+    - scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    
+    
+  # custom_dir: overrides
+    
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.tooltips
+    - content.code.copy
+    - content.code.annotate
+    - header.autohide
+    - navigation.tracking
+    - navigation.prune
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+
+copyright: >
+ Copyright &copy; 2024 Asterisk
+ <br>All content under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank" rel="noopener noreferrer">CC-BY-SA 4.0</a>
+
+plugins:
+  - search
+  - social
+  - group:
+      enabled: !ENV CI
+      plugins:
+        - privacy
+        - git-committers
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: auto
+      height: auto
+      zoomable: true
+      draggable: true
+      auto_caption: false
+      caption_position: bottom
+      background: white
+      shadow: true
+
+extra:
+  generator: false
+
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - tables
+  - footnotes
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.tabbed:
+      alternate_style: true
+
+
+
+
+nav:
+  - Home:
+      - Home: index.md
+  - Games:
+    - Games: games/README.md
+    - TF2:
+        - Running on Linux: games/pc/tf2/linux.md
+        - Replays: games/pc/tf2/demos.md
+        
+  
