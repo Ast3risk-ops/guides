@@ -1,4 +1,7 @@
 site_name: GuideBox
+repo_url: https://github.com/ast3risk-ops/guides
+repo_name: Ast3risk-ops/guides
+edit_uri: edit/master/docs/
 extra_css:
   - stylesheets/extra.css
 
@@ -7,6 +10,9 @@ theme:
   name: material
   icon:
     logo: material/tools
+    repo: fontawesome/brands/github
+    edit: material/pencil 
+    view: material/eye
     admonition:
       note: octicons/pencil-16
       abstract: octicons/checklist-16
@@ -51,6 +57,8 @@ theme:
     - content.tooltips
     - content.code.copy
     - content.code.annotate
+    - content.action.edit
+    - content.action.view
     - header.autohide
     - navigation.tracking
     - navigation.prune
@@ -71,7 +79,10 @@ plugins:
       enabled: !ENV CI
       plugins:
         - privacy
-        - git-committers
+        - git-committers:
+          enabled: true
+          repository: ast3risk-ops/guides
+          branch: master
   - glightbox:
       touchNavigation: true
       loop: false
@@ -85,10 +96,17 @@ plugins:
       caption_position: bottom
       background: white
       shadow: true
+  - git-revision-date-localized:
+      type: timeago
+      fallback_to_build_date: true
+      enable_creation_date: true
+      enabled: true
 
 extra:
   generator: false
 
+watch:
+  - "includes"
 
 markdown_extensions:
   - admonition
