@@ -105,6 +105,7 @@ plugins:
       enabled: true
 
 extra:
+  generator: false
   social:
     - icon: material/web
       link: https://asterisk.lol
