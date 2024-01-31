@@ -60,6 +60,7 @@ theme:
     - content.code.annotate
     - content.action.edit
     - content.action.view
+    - content.tabs.link
     - header.autohide
     - navigation.tracking
     - navigation.prune
@@ -134,6 +135,9 @@ markdown_extensions:
         - includes/abbreviations.md
   - pymdownx.tabbed:
       alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
 
 
 
