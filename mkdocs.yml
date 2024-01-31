@@ -105,7 +105,25 @@ plugins:
       enabled: true
 
 extra:
-  generator: false
+  social:
+    - icon: material/web
+      link: https://asterisk.lol
+      name: My Website
+    - icon: fontawesome/brands/github 
+      link: https://github.com/ast3risk-ops
+      name: My Github
+    - icon: fontawesome/brands/mastodon
+      link: https://social.linux.pizza/@asterisk
+      name: My Mastodon
+    - icon: fontawesome/solid/envelope
+      link: mailto:me@asterisk.lol
+      name: My Email
+    - icon: fontawesome/solid/key
+      link: https://i.asterisk.lol/l/pgpkey
+      name: My PGP key
+    - icon: fontawesome/solid/ellipsis-vertical
+      link: https://asterisk.lol/socials
+      name: More...
 
 watch:
   - "includes"
