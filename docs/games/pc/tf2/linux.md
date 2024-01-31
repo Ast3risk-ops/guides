@@ -50,7 +50,7 @@ sudo dnf install gperftools-devel.i686
 
 ## :material-steam: Changing Steam Options
 
-Go to Team Fortress 2 in your [Steam Library](steam://open/games) and right click it. 
+Go to Team Fortress 2 in your [Steam Library](steam://open/games), right click it and choose **Properties**. 
 
 ![tf2-rightclick](../../../assets/img/tf2-rightclick.png)
 
