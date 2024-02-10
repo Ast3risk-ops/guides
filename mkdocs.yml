@@ -9,8 +9,8 @@ extra_css:
 theme:
   favicon: assets/img/favicon-32x32.png 
   name: material
+  logo: assets/img/package.png
   icon:
-    logo: material/tools
     repo: fontawesome/brands/github
     edit: material/pencil 
     view: material/eye
@@ -30,16 +30,16 @@ theme:
   palette:
   
     - scheme: slate
-      primary: deep purple
-      accent: deep purple
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
 
     # Palette toggle for light mode
     - scheme: default
-      primary: deep purple
-      accent: purple
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
@@ -47,7 +47,7 @@ theme:
     # Palette toggle for dark mode
     
     
-  # custom_dir: overrides
+  custom_dir: overrides/
     
   features:
     - navigation.instant
@@ -128,6 +128,7 @@ extra:
 
 watch:
   - "includes"
+  - "overrides"
 
 markdown_extensions:
   - admonition
