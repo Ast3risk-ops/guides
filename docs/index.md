@@ -6,8 +6,6 @@ hide:
   - toc
 ---
 
-
-
 # :material-home: Home
 
 Welcome to GuideBox!
