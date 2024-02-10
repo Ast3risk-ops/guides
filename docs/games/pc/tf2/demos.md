@@ -7,7 +7,11 @@ description: Creating and Exporting TF2 replays.
 
 ## Creating a replay
 
-WIP
+Press ++f6++ while alive to record and save a replay after death.
+
+Press ++f6++ after death to save your life as a replay.
+
+Replays can be viewed by pressing the **Replays** button on the main menu (the TV).
 
 ## Exporting Replays
 

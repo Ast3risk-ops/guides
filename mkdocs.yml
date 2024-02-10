@@ -158,6 +158,11 @@ markdown_extensions:
       slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
           case: lower
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
 
 
 
