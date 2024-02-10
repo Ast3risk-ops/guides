@@ -13,6 +13,9 @@ description: Running TF2 on Native Linux.
 
 ## :material-package-variant-plus: Installing prerequisites
 
+!!! note
+    The following is for if the game does not load normally.
+
 We need to install [`lib32-gperftools`](https://aur.archlinux.org/packages/lib32-gperftools) (or [`google-perftools`](https://packages.debian.org/stable/google-perftools)) to be able to run the current 32-bit build of TF2 on Linux.
 
 ### :material-arch: Arch

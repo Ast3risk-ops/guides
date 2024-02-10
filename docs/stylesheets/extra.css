@@ -9,6 +9,12 @@
     /* --md-accent-fg-color: #EB459E; */
 }
 
+.md-typeset .admonition,
+.md-typeset details {
+    border-width: 0;
+    border-left-width: 4px;
+}
+
 
 
 .blue {
