@@ -12,6 +12,8 @@ Welcome to GuideBox!
 
 I only have some weird TF2 guides here for now.
 
+[See those](games/pc/tf2/demos.md){ .md-button .md-button--primary }
+
 --------
 
 ###### Built with [:simple-materialformkdocs: Material for MkDocs](https://squidfunk.github.io/mkdocs-material).

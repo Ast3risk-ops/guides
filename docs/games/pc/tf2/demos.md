@@ -5,7 +5,7 @@ description: Creating and Exporting TF2 replays.
 
 # :material-video-vintage: Replays
 
-## Creating a replay
+## :material-camera-plus: Creating a replay
 
 Press ++f6++ while alive to record and save a replay after death.
 
@@ -13,13 +13,25 @@ Press ++f6++ after death to save your life as a replay.
 
 Replays can be viewed by pressing the **Replays** button on the main menu (the TV).
 
-## Exporting Replays
+![tf2menu](../../../assets/img/tf2menu.jpg)
 
-!!! info "Credit for this guide goes to [**boXy**](https://steamcommunity.com/id/secretitem), [**Zoey Fox (ZFox)**](https://steamcommunity.com/id/Zoey_Fox/) and [Goluboch](https://steamcommunity.com/id/goluboch/)."
+The **Replay Editor** will show off your replays and saved movies.
 
-Turning your replay into a movie.
+![tf2replays](../../../assets/img/tf2replays.jpg)
 
-### Platform-specific steps
+Hovering over a replay will show more info:
+
+![tf2replays2](../../../assets/img/tf2replays2.jpg)
+
+Clicking on a replay offers a few options:
+
+
+
+## :material-content-save-all: Exporting Replays
+
+!!! info "Credit for parts of this guide goes to [**boXy**](https://steamcommunity.com/id/secretitem), [**Zoey Fox (ZFox)**](https://steamcommunity.com/id/Zoey_Fox/) and [Goluboch](https://steamcommunity.com/id/goluboch/)."
+
+### :material-cog: Platform-specific steps
 
 === ":material-microsoft-windows: Windows"
 
@@ -39,7 +51,7 @@ Turning your replay into a movie.
 
 *[QTFF]: QuickTime File Fornat
 
-## Exporting a take
+## :material-content-save-cog: Exporting a take
 
 1. Select the take of the replay you want to render.
 
