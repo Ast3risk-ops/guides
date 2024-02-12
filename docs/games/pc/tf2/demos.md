@@ -5,6 +5,9 @@ description: Creating and Exporting TF2 replays.
 
 # :material-video-vintage: Replays
 
+!!! warning
+    Replays only work on servers that support them. The game will tell you when loading in to a match if this is the case (as well as in the serverlist, look for the movie reel icon). Offline games will always have replay support.
+
 ## :material-camera-plus: Creating a replay
 
 Press ++f6++ while alive to record and save a replay after death.
