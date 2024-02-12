@@ -16,7 +16,7 @@ description: Creating and Exporting TF2 replays.
     
     ![tf2serverlist](../../../assets/img/tf2serverlist.jpg)
 
-    Offline games will always have replay support.
+    Offline games and servers you start from the main menu **do not** have replay support.
 
 ## :material-camera-plus: Creating a replay
 
