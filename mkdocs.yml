@@ -26,7 +26,6 @@ theme:
       danger: octicons/zap-16
       bug: octicons/bug-16
       example: octicons/beaker-16
-      quote: octicons/quote-16
   palette:
   
     - scheme: slate
@@ -138,6 +137,10 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
