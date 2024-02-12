@@ -16,7 +16,7 @@ theme:
     view: material/eye
     admonition:
       note: octicons/pencil-16
-      abstract: octicons/checklist-16
+      abstract: material/clipboard-text-outline
       info: octicons/info-16
       tip: octicons/light-bulb-16
       success: octicons/check-16

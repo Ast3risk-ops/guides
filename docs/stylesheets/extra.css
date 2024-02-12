@@ -82,3 +82,7 @@
 span.small {
     font-size: smaller;
 }
+
+span.grey {
+    color: grey;
+}

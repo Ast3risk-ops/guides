@@ -158,23 +158,36 @@ Once you're satisfied, head over to the menu at the top and choose `Save` or `Sa
 
     [Source](https://wiki.teamfortress.com/wiki/Replay_Editor#Rendering)
 
+    ??? abstract "Converting using `ffmpeg`"
+        If you have `ffmpeg`, you can use the following command for converting your TGAs and wavefile into a video (run from your tf2 output folder):
+        ```
+        ffmpeg -r 23.976 -start_number 0 -i frame_%04d.tga -i audio.wav -pix_fmt yuv420p -c:v libx264 blabla.mp4
+        ```
+        where: 
+
+        - `23.976` is the framerate for your movie
+        - `-c:v libx264` is the x264 codec
+        - `blabla.mp4` is your output file
+        
+        You can also add `-ss <time>` to cut garbage in the start where it fast forwards the replay. If the fast forward thing happens on the 1st frame (frame_0000), divide 1/23.976 and you'll get the amount of seconds you need to cut from the start. Result: `-ss 00:00:00.042`
+
+Raw encoding tends to be much faster then reencoding movies into MP4, but rendered raw files tend to take up to 15GBs of free space.
+
 1. Select the take of the replay you want to render.
 
-1. Click **Save to movie...**
+2. Click **Save to movie...**
 
-1. Enter your preferred settings.
+3. Enter your preferred settings.
 
-1. Click **Go**.
+4. Click **Go**.
 
-1. Wait for your replay to finish rendering.
+5. Wait for your replay to finish rendering.
 
-1. Once finished, click on your saved movie (in the **Movies** section) in the replay menu.
+6. Once finished, click on your saved movie (in the **Movies** section) in the replay menu.
 
-1. Click **Export** and choose the name and location to export to.
+7. Click **Export** and choose the name and location to export to.
 
-1. You should find your movie where you exported it to.
-
-1. Share it with your friends!
+8. You should find your movie where you exported it to.
 
 ??? note "For Linux users"
     You may get a filesystem error when exporting your movie, that's okay.
@@ -186,3 +199,5 @@ Once you're satisfied, head over to the menu at the top and choose `Save` or `Sa
     ```
 
     They will be in **MOV format** (Windows) or **WebM format** (Linux).
+
+You will now want to open your final file in a video editor to cut out the first frame or two, which contain random rewinding garbage. You may need to convert the file first to do this. You can use `ffmpeg` (`ffmpeg -i input.mov output.mp4`) or [CloudConvert](https://cloudconvert.com).
