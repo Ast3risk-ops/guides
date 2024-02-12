@@ -12,7 +12,7 @@ Press ++f6++ while alive to record and save a replay after death.
 Press ++f6++ after death to save your life as a replay.
 
 Replays can be viewed by pressing the **Replays** button on the main menu (the TV).
-
+<!-- No I haven't played at all on the official servers. -->
 ![tf2menu](../../../assets/img/tf2menu.jpg)
 
 The **Replay Editor** will show off your replays and saved movies.
@@ -25,7 +25,24 @@ Hovering over a replay will show more info:
 
 Clicking on a replay offers a few options:
 
+![tf2replayview](../../../assets/img/tf2replayview.jpg)
 
+<div class="annotate" markdown>
+1. **Originals and Takes** (1)
+2. **Replay Title** (2)
+3. **Watch/Edit** (3)
+4. **Save To Movie** (4)
+</div>
+
+1. The original replay and any takes you've made.
+2. This can be clicked on and edited.
+3. View your replay in the **Replay Editor**.
+4. **[Export](#exporting-replays)** your take (select a take or the whole movie first).
+
+You can also see stats like who you played as, movie time, map name and kill count.
+
+??? question "How does this replay system work?"
+    These replays need to be exported because they are **[not videos](https://developer.valvesoftware.com/wiki/DEM_(file_format))**. They basically load up the map, and have the demo player recreate your (and others') *exact* actions (what it's really recording).
 
 ## :material-content-save-all: Exporting Replays
 
@@ -51,7 +68,7 @@ Clicking on a replay offers a few options:
 
 *[QTFF]: QuickTime File Fornat
 
-## :material-content-save-cog: Exporting a take
+### :material-content-save-cog: Exporting a take
 
 1. Select the take of the replay you want to render.
 
@@ -63,7 +80,7 @@ Clicking on a replay offers a few options:
 
 1. Wait for your replay to finish rendering.
 
-1. Once finished, click on your saved movie (in the Movies section) in the replay menu.
+1. Once finished, click on your saved movie (in the **Movies** section) in the replay menu.
 
 1. Click **Export** and choose the name and location to export to.
 
