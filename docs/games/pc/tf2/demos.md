@@ -6,13 +6,13 @@ description: Creating and Exporting TF2 replays.
 # :material-video-vintage: Replays
 
 !!! warning
-    Replays only work on servers that support them. The game will tell you when loading in to a match if this is the case.
+    Replays only work on servers that support them. The game will tell you when loading in to a match if this is the case:
     
     ![replay](https://wiki.teamfortress.com/w/images/0/01/F6_Notification.png)
 
     ![tf2replayalert](../../../assets/img/tf2replayalert.jpg)
 
-    Also look for ![reel](https://wiki.teamfortress.com/w/images/8/8f/Icon_replay.png) in the serverlist. 
+    Also look for ![reel](https://wiki.teamfortress.com/w/images/8/8f/Icon_replay.png) in the serverlist: 
     
     ![tf2serverlist](../../../assets/img/tf2serverlist.jpg)
 
