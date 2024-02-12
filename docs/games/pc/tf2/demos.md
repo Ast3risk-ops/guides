@@ -117,12 +117,17 @@ Once you're satisfied, head over to the menu at the top and choose `Save` or `Sa
 
 ### :material-cog: Platform-specific steps
 
-=== ":material-microsoft-windows: Windows"
+=== ":material-microsoft-windows: Windows" 
+
+    ??? tip "Video demonstration"
+        Video by **ZFox**:
+        <center>
+            <video src="/assets/vid/tf2quicktime.mp4" controls muted width="560" height="420"></video>
+        </center>
 
     First, you will need to download [:simple-quicktime: QuickTime](https://secure-appldnld.apple.com/QuickTime/031-43075-20160107-C0844134-B3CD-11E5-B1C0-43CA8D551951/QuickTimeInstaller.exe). Use the typical install.
 
-    ??? warning "Be careful about unofficial downloads!"
-        Only download QuickTime using the link here. Other, unofficial downloads may contain malware.
+   
 
     ??? question "Why?"
         TF2 uses the **QTFF** (MOV) codec on Windows, and the game will check for QuickTime to be able to get the needed codec to export your movie.
@@ -159,6 +164,8 @@ Once you're satisfied, head over to the menu at the top and choose `Save` or `Sa
     [Source](https://wiki.teamfortress.com/wiki/Replay_Editor#Rendering)
 
     ??? abstract "Converting using `ffmpeg`"
+        Credit: **Goluboch**
+        
         If you have `ffmpeg`, you can use the following command for converting your TGAs and wavefile into a video (run from your tf2 output folder):
         ```
         ffmpeg -r 23.976 -start_number 0 -i frame_%04d.tga -i audio.wav -pix_fmt yuv420p -c:v libx264 blabla.mp4
