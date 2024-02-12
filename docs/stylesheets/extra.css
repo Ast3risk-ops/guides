@@ -56,3 +56,7 @@
 .windows {
     color: #0078d6;
 }
+
+span.small {
+    font-size: smaller;
+}
