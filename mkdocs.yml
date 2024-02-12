@@ -75,7 +75,9 @@ copyright: >
 
 plugins:
   - search
-  - social
+  - social:
+      cards_layout_options:
+        background_color: "#c29d76"
   - group:
       enabled: !ENV CI
       plugins:
