@@ -79,7 +79,7 @@ In the center you have, from left to right:
 
 1. Set the start of a take. (++space++)
 2. Rewinding is different than fast-forwarding and requires reloading the demo, so you can only rewind through set intervals.
-3. Hold down to fast forward, the fast forward will slowly get faster. Hold ++shift++ to fast forward slowly, ++alt++ to fast forward quickly.
+3. Click and hold to fast forward, the fast forward will slowly get faster. Hold ++shift++ to fast forward slowly, ++alt++ to fast forward quickly.
 4. The start of your take or your movie.
 5. Of your take or your movie.
 6. Set the end of your take.
