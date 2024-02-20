@@ -125,13 +125,7 @@ Once you're satisfied, head over to the menu at the top and choose `Save` or `Sa
             <video src="/assets/vid/tf2quicktime.mp4" controls muted width="560" height="420"></video>
         </center>
 
-    First, you will need to download [:simple-quicktime: QuickTime](https://secure-appldnld.apple.com/QuickTime/031-43075-20160107-C0844134-B3CD-11E5-B1C0-43CA8D551951/QuickTimeInstaller.exe). Use the typical install.
-
-   
-
-    ??? question "Why?"
-        TF2 uses the **QTFF** (MOV) codec on Windows, and the game will check for QuickTime to be able to get the needed codec to export your movie.
-
+    First, you will need to download [:simple-quicktime: QuickTime](https://secure-appldnld.apple.com/QuickTime/031-43075-20160107-C0844134-B3CD-11E5-B1C0-43CA8D551951/QuickTimeInstaller.exe). Use the typical install. You need this to export replays, as they are in **MOV**      format.
 
     Reboot your **PC** and launch TF2.
 
