@@ -135,6 +135,9 @@ Once you're satisfied, head over to the menu at the top and choose `Save` or `Sa
 
     Reboot your **PC** and launch TF2.
 
+    ??? failure "I can't hear any audio or voicelines!"
+        This is either due to Steam or QuickTime (usually QuickTime). Try the solutions menationed in this [Steam discussion](https://steamcommunity.com/app/440/discussions/0/1693788384140520601/). If those solutions fail, uninstall QuickTime and see if that helps. You              can't export replays without it, so you'll need to figure something out for that (or just play TF2 on native Linux, which uses WebM).
+
 
 === ":simple-linux: Linux"
 
