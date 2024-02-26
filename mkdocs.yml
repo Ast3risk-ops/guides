@@ -46,7 +46,7 @@ theme:
     # Palette toggle for dark mode
     
     
-  custom_dir: overrides/
+  custom_dir: overrides
     
   features:
     - navigation.instant
