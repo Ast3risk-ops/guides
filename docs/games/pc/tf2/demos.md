@@ -1,6 +1,7 @@
 ---
 icon: material/video-vintage
 description: Creating and Exporting TF2 replays.
+comments: true
 ---
 
 # :material-video-vintage: Replays

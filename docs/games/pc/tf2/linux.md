@@ -1,6 +1,7 @@
 ---
 icon: fontawesome/brands/linux
 description: Running TF2 on Native Linux.
+comments: true
 ---
 
 # :fontawesome-brands-linux: Running on Linux
