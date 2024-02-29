@@ -9,7 +9,7 @@ description: Creating and Exporting TF2 replays.
 !!! warning
     Replays only work on servers that support them. The game will tell you when loading in to a match if this is the case:
     
-    ![replay](https://wiki.teamfortress.com/w/images/0/01/F6_Notification.png)
+    
 
     ![tf2replayalert](../../../assets/img/tf2replayalert.jpg)
 
@@ -20,6 +20,10 @@ description: Creating and Exporting TF2 replays.
     Offline games and servers you start from the main menu **do not** have replay support.
 
 ## :material-camera-plus: Creating a replay
+
+Servers supporting replays will show this option after death:
+
+![replay](https://wiki.teamfortress.com/w/images/0/01/F6_Notification.png)
 
 Press ++f6++ while alive to record and save a replay after death.
 
