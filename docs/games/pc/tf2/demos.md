@@ -9,8 +9,6 @@ description: Creating and Exporting TF2 replays.
 !!! warning
     Replays only work on servers that support them. The game will tell you when loading in to a match if this is the case:
     
-    
-
     ![tf2replayalert](../../../assets/img/tf2replayalert.jpg)
 
     Also look for ![reel](https://wiki.teamfortress.com/w/images/8/8f/Icon_replay.png) in the serverlist: 
@@ -32,7 +30,7 @@ Press ++f6++ after death to save your life as a replay.
 ## :material-monitor-eye: Viewing Replays
 
 Replays can be viewed by pressing the **Replays** button on the main menu (the TV).
-<!-- No I haven't played at all on the official servers. -->
+<!-- No, I haven't played at all on the official servers. -->
 ![tf2menu](../../../assets/img/tf2menu.jpg)
 
 The **Replay Editor** will show off your replays and saved movies.
@@ -118,7 +116,7 @@ Once you're satisfied, head over to the menu at the top and choose `Save` or `Sa
 
 ## :material-content-save-all: Exporting Replays
 
-!!! info "Credit for parts of this guide goes to [**boXy**](https://steamcommunity.com/id/secretitem), [**Zoey Fox (ZFox)**](https://steamcommunity.com/id/Zoey_Fox/) and [Goluboch](https://steamcommunity.com/id/goluboch/)."
+Credit for parts of this guide goes to [**boXy**](https://steamcommunity.com/id/secretitem), [**Zoey Fox (ZFox)**](https://steamcommunity.com/id/Zoey_Fox/) and [Goluboch](https://steamcommunity.com/id/goluboch/).
 
 ### :material-cog: Platform-specific steps
 
@@ -182,7 +180,7 @@ Once you're satisfied, head over to the menu at the top and choose `Save` or `Sa
 
 Raw encoding tends to be much faster then reencoding movies into MP4, but rendered raw files tend to take up to 15GBs of free space.
 
-1. Select the take of the replay you want to render.
+1. Select the take of the replay you want to render. You cannot render the whole film (the original).
 
 2. Click **Save to movie...**
 
