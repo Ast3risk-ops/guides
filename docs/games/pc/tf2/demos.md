@@ -8,7 +8,7 @@ description: Creating and Exporting TF2 replays.
 
 !!! warning
     Replays only work on servers that support them. The game will tell you when loading in to a match if this is the case:
-    
+
     ![tf2replayalert](../../../assets/img/tf2replayalert.jpg)
 
     Also look for ![reel](https://wiki.teamfortress.com/w/images/8/8f/Icon_replay.png) in the serverlist: 
@@ -116,7 +116,7 @@ Once you're satisfied, head over to the menu at the top and choose `Save` or `Sa
 
 ## :material-content-save-all: Exporting Replays
 
-Credit for parts of this guide goes to [**boXy**](https://steamcommunity.com/id/secretitem), [**Zoey Fox (ZFox)**](https://steamcommunity.com/id/Zoey_Fox/) and [Goluboch](https://steamcommunity.com/id/goluboch/).
+Credit for parts of this guide goes to [**boXy**](https://steamcommunity.com/id/secretitem), [**Zoey Fox (ZFox)**](https://steamcommunity.com/id/Zoey_Fox/) and [**Goluboch**](https://steamcommunity.com/id/goluboch/).
 
 ### :material-cog: Platform-specific steps
 
