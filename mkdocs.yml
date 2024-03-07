@@ -49,8 +49,8 @@ theme:
   custom_dir: overrides
     
   features:
-    - navigation.instant
-    - navigation.instant.progress
+    # - navigation.instant
+    # - navigation.instant.progress
     - search.suggest
     - search.highlight
     - search.share
