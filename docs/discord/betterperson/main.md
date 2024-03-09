@@ -1,5 +1,5 @@
 ---
-icon: material/simple-discord
+icon: simple/discord
 description: Mastering the art of interacting in any Discord Support Server 
 # comments: true
 ---
