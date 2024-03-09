@@ -77,7 +77,9 @@ plugins:
   - search
   - social:
       cards_layout_options:
-        background_color: "#c29d76"
+        # background_color: "#c29d76"
+        background_color: "#131313"
+        color: "#c29d76"
   - group:
       enabled: !ENV CI
       plugins:
@@ -178,6 +180,7 @@ nav:
   - Games:
     - Games: games/README.md
     - TF2:
+        - TF2: games/pc/tf2/README.md 
         - Running on Linux: games/pc/tf2/linux.md
         - Replays: games/pc/tf2/demos.md
         

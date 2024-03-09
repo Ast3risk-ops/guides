@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="25"
+   height="25.000002"
+   viewBox="0 0 25 25.000002"
+   enable-background="new 0 0 400 400"
+   xml:space="preserve"
+   sodipodi:docname="tf2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs6" /><sodipodi:namedview
+   id="namedview6"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1" />
+<filter
+   id="Gaussian_Blur"
+   x="-0.020135129"
+   y="-0.020134848"
+   width="1.0402703"
+   height="1.0402697">
+	<feGaussianBlur
+   stdDeviation="3"
+   in="SourceGraphic"
+   id="feGaussianBlur1" />
+</filter>
+<g
+   id="svg3428_copy"
+   transform="matrix(0.06648296,0,0,0.06540115,-0.91021329,-1.3791136)"
+   inkscape:export-filename="svg3428_copy.svg"
+   inkscape:export-xdpi="3.8399999"
+   inkscape:export-ydpi="3.8399999">
+	<path
+   filter="url(#Gaussian_Blur)"
+   d="m 244.373,36.007 c 77.277,19.735 134.419,89.813 134.419,173.24 0,1.903 -0.04,3.798 -0.1,5.688 L 258.435,197.828 c -3.521,-18.121 -15.256,-33.295 -31.178,-41.512 z M 147.07,181.986 c 8.216,-15.92 23.391,-27.655 41.511,-31.176 L 205.687,30.552 c -1.891,-0.059 -3.783,-0.099 -5.688,-0.099 -83.425,0 -153.502,57.14 -173.238,134.418 z m 25.669,80.19 C 156.82,253.959 145.084,238.784 141.564,220.664 L 21.307,203.559 c -0.059,1.891 -0.099,3.784 -0.099,5.688 0,83.424 57.14,153.502 134.417,173.237 z m 80.191,-25.67 c -8.217,15.92 -23.392,27.655 -41.512,31.178 L 194.311,387.94 c 1.89,0.062 3.785,0.102 5.689,0.102 83.425,0 153.503,-57.145 173.238,-134.42 z"
+   id="path1" />
+	
+		<linearGradient
+   id="SVGID_1_"
+   gradientUnits="userSpaceOnUse"
+   x1="240.5625"
+   y1="765.26947"
+   x2="161.3222"
+   y2="416.49271"
+   gradientTransform="translate(0,-391)">
+		<stop
+   offset="0"
+   style="stop-color:#5D1F0E"
+   id="stop1" />
+		<stop
+   offset="1"
+   style="stop-color:#D09737"
+   id="stop2" />
+	</linearGradient>
+	<path
+   fill="url(#SVGID_1_)"
+   d="m 245.314,26.641 c 77.276,19.735 134.42,89.813 134.42,173.24 0,1.904 -0.04,3.799 -0.102,5.688 L 259.376,188.464 c -3.521,-18.121 -15.257,-33.295 -31.177,-41.512 z M 148.013,172.62 c 8.216,-15.92 23.391,-27.655 41.511,-31.176 L 206.631,21.186 c -1.89,-0.059 -3.783,-0.099 -5.688,-0.099 -83.425,0 -153.502,57.14 -173.238,134.418 z m 25.669,80.191 c -15.919,-8.217 -27.655,-23.393 -31.175,-41.512 L 22.25,194.192 c -0.059,1.89 -0.099,3.785 -0.099,5.689 0,83.424 57.14,153.501 134.417,173.238 z m 80.19,-25.67 c -8.218,15.92 -23.392,27.654 -41.513,31.176 l -17.106,120.26 c 1.89,0.059 3.785,0.1 5.688,0.1 83.426,0 153.504,-57.143 173.237,-134.42 z"
+   id="path2"
+   style="fill:url(#SVGID_1_)" />
+	
+		<radialGradient
+   id="SVGID_2_"
+   cx="131.41409"
+   cy="598.875"
+   r="304.65121"
+   fx="127.5269"
+   fy="598.06873"
+   gradientTransform="matrix(0.9774,0.2114,-0.1266,0.5851,0.8709,-343.1854)"
+   gradientUnits="userSpaceOnUse">
+		<stop
+   offset="0"
+   style="stop-color:#FFFFFF;stop-opacity:0"
+   id="stop3" />
+		<stop
+   offset="0.4657"
+   style="stop-color:#FFFFFF;stop-opacity:0.0804"
+   id="stop4" />
+		<stop
+   offset="0.9861"
+   style="stop-color:#FFFFFF;stop-opacity:0.2143"
+   id="stop5" />
+		<stop
+   offset="1"
+   style="stop-color:#FFFFFF;stop-opacity:0"
+   id="stop6" />
+	</radialGradient>
+	<path
+   fill="url(#SVGID_2_)"
+   d="m 245.314,26.641 c 77.276,19.735 134.42,89.813 134.42,173.24 0,1.904 -0.04,3.799 -0.102,5.688 L 259.376,188.464 c -3.521,-18.121 -15.257,-33.295 -31.177,-41.512 z M 148.013,172.62 c 8.216,-15.92 23.391,-27.655 41.511,-31.176 L 206.631,21.186 c -1.89,-0.059 -3.783,-0.099 -5.688,-0.099 -83.425,0 -153.502,57.14 -173.238,134.418 z m 25.669,80.191 c -15.919,-8.217 -27.655,-23.393 -31.175,-41.512 L 22.25,194.192 c -0.059,1.89 -0.099,3.785 -0.099,5.689 0,83.424 57.14,153.501 134.417,173.238 z m 80.19,-25.67 c -8.218,15.92 -23.392,27.654 -41.513,31.176 l -17.106,120.26 c 1.89,0.059 3.785,0.1 5.688,0.1 83.426,0 153.504,-57.143 173.237,-134.42 z"
+   id="path6"
+   style="fill:url(#SVGID_2_)" />
+</g>
+</svg>
