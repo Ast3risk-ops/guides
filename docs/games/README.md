@@ -7,4 +7,4 @@ description: "Game-related guides"
 
 List of games:
 
-- [TF2](pc/tf2/README.md)
+- [:game-tf2-light: TF2](pc/tf2/README.md)
