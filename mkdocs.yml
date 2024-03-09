@@ -60,7 +60,7 @@ theme:
     - content.action.edit
     - content.action.view
     - content.tabs.link
-    - header.autohide
+    # - header.autohide
     - navigation.tracking
     - navigation.prune
     - navigation.tabs
