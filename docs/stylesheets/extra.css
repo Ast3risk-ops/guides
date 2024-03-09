@@ -20,7 +20,12 @@
 [data-md-color-scheme="slate"] .md-tabs {
     border-bottom-left-radius: 10px !important;
     border-bottom-right-radius: 10px !important;
-    background-color: #473a31;
+    background-color: #1e2029;
+}
+
+[data-md-color-scheme="slate"] .md-tabs__link {
+    /* color: var(--md-primary-fg-color--light); */
+    /* color: #e9be91; */
 }
 
 [data-md-color-scheme="default"] .md-header {
