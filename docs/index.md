@@ -10,6 +10,10 @@ hide:
 
 Welcome to GuideBox!
 
-I only have some weird TF2 guides here for now.
+We have some weird TF2 guides here.
 
 [See those](games/pc/tf2/demos.md){ .md-button .md-button--primary }
+
+And some weird guide on Mastering the art of interacting in any Discord Support Server.
+
+[See those](games/pc/betterperson/main.md){ .md-button .md-button--primary }
