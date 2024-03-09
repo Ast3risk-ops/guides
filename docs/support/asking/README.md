@@ -1,5 +1,5 @@
 ---
-icon: material/chat-question
+icon: octicons/question-16
 title: "Asking"
 description: "Asking support questions"
 ---
