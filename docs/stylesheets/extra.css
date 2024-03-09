@@ -61,6 +61,11 @@
     }
 }
 
+.md-typeset h1 {
+    color: var(--md-typeset-a-color);
+    font-weight: 700;
+}
+
 /* credit end */
 
 /*
@@ -139,4 +144,14 @@ span.small {
 
 span.grey {
     color: grey;
+}
+
+.steam-button {
+    --md-primary-fg-color: #1b2838;
+    --md-accent-fg-color: #2d4158;
+}
+
+.open-button {
+    --md-primary-fg-color: #46661e;
+    --md-accent-fg-color: #5d862b;
 }
