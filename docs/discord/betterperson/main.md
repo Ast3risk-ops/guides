@@ -7,7 +7,7 @@ description: Mastering the art of interacting in any Discord Support Server
 !!! warning
     Please don't get offended by any of the website here, As the topic says, I made this guide to master the art of interacting in any Discord Support Server, not to offend anyone.
 
-  # :material-simple-discord: The art of interacting in any Discord Support Server
+  # :simple-discord: The art of interacting in any Discord Support Server
 
 - :wave: nohello.net  
 - :no_entry_sign: dontasktoask.com  
