@@ -170,7 +170,21 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-
+  - pymdownx.smartsymbols
+  - pymdownx.magiclink:
+      hide_protocol: true
+      normalize_issue_symbols: false
+      repo_url_shorthand: true
+      repo_url_shortener: true
+      provider: github
+      user: ast3risk-ops
+      repo: guides
+      social_url_shorthand: true
+      social_url_shortener: true
+  - toc:
+      anchorlink: false
+      permalink: "#"
+      permalink_title: ""
 
 
 
