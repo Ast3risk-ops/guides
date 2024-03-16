@@ -105,6 +105,20 @@
 
 
 
+.md-footer {
+  border-top: 0.10rem solid var(--md-accent-fg-color);
+}
+
+.md-footer__link {
+    margin-bottom: 0 !important;
+    margin-top: 0.2rem !important;
+}
+
+.md-social,
+.md-copyright {
+    padding: 0 !important
+}
+
 .blue {
     color: #00B8D4;
 }
