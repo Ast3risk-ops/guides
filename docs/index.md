@@ -16,6 +16,6 @@ Welcome to GuideBox!
 
 I only have some weird TF2 guides here for now.
 
-[See those](games/pc/tf2/demos.md){ .md-button }
+[See those](games/pc/tf2/README.md){ .md-button }
 
 <!-- </div> -->
